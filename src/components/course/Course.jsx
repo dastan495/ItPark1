@@ -3,8 +3,10 @@ import "../../style.css";
 import person1 from "../../images/person1.png";
 import person2 from "../../images/person2.png";
 import person3 from "../../images/person3.png";
+import { useNavigate } from "react-router-dom";
 
 const Course = () => {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <div className="the_main_title_course">
@@ -29,7 +31,7 @@ const Course = () => {
           </div>
           <div className="info_button ">
             <button>Записаться на курс</button>
-            <button>Узнать больше</button>
+            <button onClick={() => navigate("/infojs")}>Узнать больше</button>
           </div>
         </div>
         <div className="block_course">
@@ -44,7 +46,7 @@ const Course = () => {
           </div>
           <div className="info_button ">
             <button>Записаться на курс</button>
-            <button>Узнать больше</button>
+            <button onClick={() => navigate("/infojs")}>Узнать больше</button>
           </div>
         </div>
         <div className="block_course">
@@ -59,7 +61,7 @@ const Course = () => {
           </div>
           <div className="info_button ">
             <button>Записаться на курс</button>
-            <button>Узнать больше</button>
+            <button onClick={() => navigate("/infojs")}>Узнать больше</button>
           </div>
         </div>
       </div>
