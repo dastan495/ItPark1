@@ -228,6 +228,17 @@ const Infojs = () => {
         </ul>
       </div>
       {/* start info etap */}
+      <div className="price_block">
+        <div className="price_block_mini">
+          <div className="price_block_mini-1">
+            <div className="price_block_mini-2">
+              <div className="prive_block_mini-h1">
+                <div className="price_block_mini_h1">Стомость обучении</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

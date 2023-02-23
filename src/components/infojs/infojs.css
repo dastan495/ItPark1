@@ -318,3 +318,38 @@ p {
   user-select: none;
 }
 /* info end course */
+/* price block start */
+.price_block {
+  padding-top: 75px;
+  padding-bottom: 120px;
+  background-color: orange;
+}
+.price_block_mini-1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0;
+}
+.price_block_mini-2 {
+  max-width: 1160px;
+  float: left;
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 100%;
+}
+.prive_block_mini-h1 {
+  text-align: center;
+  margin-bottom: 90px;
+}
+.price_block_mini_h1 {
+  margin-bottom: 40px;
+  font-size: 42px;
+  line-height: 1.23;
+
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 700;
+  color: #000000;
+}
+/* price block end */

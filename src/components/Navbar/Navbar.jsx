@@ -60,6 +60,7 @@ const Navbar = () => {
           </li>
         </ul>
         <input type="text" className="navbar__input" />
+        {/* <img src="" alt="" /> */}
         <img
           src="./images/burger_btn.png"
           alt=""
