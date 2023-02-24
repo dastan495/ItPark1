@@ -10,11 +10,20 @@ const EventList = ({ item }) => {
       <img src={item.img} alt="" width="400px" />
       <h2>{item.title}</h2>
       <p>дата: {item.date}</p>
-      <button onClick={() => deleteEvent(item.id)} className="admin_btn">
+      <button
+        onClick={(e) => {
+          deleteEvent(item.id);
+          e.stopPropagation();
+        }}
+        className="admin_btn"
+      >
         delete
       </button>
       <button
-        onClick={() => navigate(`/edit/${item.id}`)}
+        onClick={(e) => {
+          navigate(`/edit/${item.id}`);
+          e.stopPropagation();
+        }}
         className="admin_btn"
         style={{ marginLeft: "10px" }}
       >
