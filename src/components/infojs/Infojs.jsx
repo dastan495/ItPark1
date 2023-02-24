@@ -1,4 +1,5 @@
 import React from "react";
+// info about python
 import "./infojs.css";
 const Infojs = () => {
   return (
@@ -234,6 +235,48 @@ const Infojs = () => {
             <div className="price_block_mini-2">
               <div className="prive_block_mini-h1">
                 <div className="price_block_mini_h1">Стомость обучении</div>
+              </div>
+              <div className="info_price">
+                <div className="info_price-1">
+                  <div className="info_price-2">
+                    <div className="info_price-3">
+                      Основы программирования 2.0
+                    </div>
+                  </div>
+                  <div className="info_price_center">
+                    <div className="info_price_center-1">
+                      <div className="info_price_center-box">
+                        <div className="info_price_center-into">
+                          — Обучение по видео-записям, с оффлайн консультациями
+                          <br />
+                          — Чат с менторами и команде
+                          <br />
+                          — Персональный отзыв на каждое задание
+                          <br />
+                          — Все языки программирования
+                          <br />
+                          — Круглосуточный коворкинг
+                          <br />— 2 недели обучения
+                        </div>
+                        <div className="number_price">
+                          <div className="number_p">7000</div>
+                          <div
+                            style={{
+                              fontSize: "14px",
+                              lineHeight: "1.55",
+                              fontFamily: "Montserrat,Arial,sans-serif",
+                              fontWeight: "400",
+                              color: "#000",
+                            }}
+                          >
+                            за курс
+                          </div>
+                        </div>
+                      </div>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

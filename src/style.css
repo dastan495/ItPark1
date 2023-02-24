@@ -10,7 +10,9 @@ body {
 
 .container {
   width: 90%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin: auto; */
   padding: 2% 0;
 }
 /* navbar styles start */
@@ -21,6 +23,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 .navbar__logo {
   width: 10%;
@@ -28,7 +31,7 @@ body {
 .navbar__list {
   display: flex;
   list-style-type: none;
-  width: 35%;
+  width: 40%;
   justify-content: space-between;
   margin: 0;
   align-items: center;
@@ -40,7 +43,7 @@ body {
 }
 
 .list__item > a:hover {
-  color: #a6ff00;
+  color: orange;
   transition: 0.8s;
 }
 .navbar__input {
@@ -59,7 +62,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-top: 50px;
 }
 .header__block_left {
   width: 40%;
@@ -193,7 +195,7 @@ header {
   margin-top: 50px;
 }
 /* portfolio styles end */
-/* info block styles start */
+/*  block styles start */
 .info-block {
   display: flex;
   justify-content: space-between;
@@ -364,7 +366,8 @@ footer {
   justify-content: space-evenly;
 }
 .info_button button {
-  background-color: yellow;
+  background-color: orange;
+  /* color: white; */
   font-weight: 700;
   margin-left: 4px;
   width: 80%;
@@ -373,3 +376,24 @@ footer {
   border-radius: 13px;
 }
 /* course end */
+.auth__button {
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  background-color: orange;
+  color: white;
+}
+
+.modal__auth {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0px;
+  left: 0px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+}

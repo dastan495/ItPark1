@@ -97,7 +97,7 @@ p {
   height: 500px;
 }
 .logoPy {
-  background-image: url(https://thumb.tildacdn.com/tild3761-3862-4462-b865-633134623866/-/resize/500x500/-/format/webp/1200px-Python-logo-n.png);
+  /* background-image: url(https://thumb.tildacdn.com/tild3761-3862-4462-b865-633134623866/-/resize/500x500/-/format/webp/1200px-Python-logo-n.png); */
   width: 135%;
   height: 100%;
   right: 0;
@@ -205,7 +205,7 @@ p {
   width: 100%;
 }
 .photes {
-  background-image: url(https://thumb.tildacdn.com/tild6466-3338-4363-b864-326339306537/-/cover/560x560/center/center/-/format/webp/MicrosoftTeams-image.png);
+  /* background-image: url(https://thumb.tildacdn.com/tild6466-3338-4363-b864-326339306537/-/cover/560x560/center/center/-/format/webp/MicrosoftTeams-image.png); */
   height: 560px;
   background-size: cover;
   background-position: center;
@@ -318,7 +318,7 @@ p {
   user-select: none;
 }
 /* info end course
- */
+   */
 /* price block start */
 .price_block {
   padding-top: 75px;
