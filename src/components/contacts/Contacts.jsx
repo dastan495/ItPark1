@@ -11,19 +11,19 @@ const Contacts = () => {
       <div className="the_main_block_contacts">
         <div className="for_contacts">
           <h2>Для обучения</h2>
-          <p>+996705000562</p>
-          <p>+996772000562</p>
-          <p>hello@gmail.com</p>
+          <p>+996999993003</p>
+          <p>+996500227700</p>
+          <p>itPark@gmail.com</p>
         </div>
         <div className="for_contacts">
           <h2>Для партнеров</h2>
-          <p>+996705000562</p>
-          <p>hello@gamil.com</p>
+          <p>+996776760076</p>
+          <p>ItPark@gamil.com</p>
         </div>
         <div className="for_contacts">
-          <h2>Работац в академии</h2>
+          <h2>Работай в академии</h2>
           <p>Открытые вакансии</p>
-          <p>people@gmail.com</p>
+          <p>+996779743280</p>
         </div>
       </div>
     </>
