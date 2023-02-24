@@ -6,13 +6,13 @@ import MainRoutes from "./Routes/MainRoutes";
 import Footer from "./components/Footer/Footer";
 
 const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <MainRoutes />
-      <Footer />
-    </div>
-  );
+    return (
+        <div>
+            <Navbar />
+            <MainRoutes />
+            <Footer />
+        </div>
+    );
 };
 
 export default App;

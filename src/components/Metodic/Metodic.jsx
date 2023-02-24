@@ -5,12 +5,12 @@ import logoasd from "./metodicimage/first.svg";
 const Metodic = () => {
     return (
         <>
-            <div class="container__attachment">
-                <div class="attachment__body">
-                    <div class="attachment__body-text">
+            <div className="container__attachment">
+                <div className="attachment__body">
+                    <div className="attachment__body-text">
                         <h1>Присоединяйся на любом этапе</h1>
-                        <div class="border__line"></div>
-                        <div class="attachment__body-text_p p-text">
+                        <div className="border__line"></div>
+                        <div className="attachment__body-text_p p-text">
                             <p>
                                 Если ты уже знаешь основы какого-то языка
                                 программирования — можно пропустить первые
@@ -19,15 +19,15 @@ const Metodic = () => {
                                 какому этапу тебя стоит подключить
                             </p>
                         </div>
-                        <div class="attachment__body-btn">
+                        <div className="attachment__body-btn">
                             <a href="#">Запросить тест</a>
                         </div>
                     </div>
                 </div>
-                <div class="attachment__footer"></div>
+                <div className="attachment__footer"></div>
             </div>
-            <div class="flex__container">
-                <div class="flex__container-text">
+            <div className="flex__container">
+                <div className="flex__container-text">
                     <h1>
                         Методика <span>обучения</span>
                     </h1>
@@ -36,9 +36,9 @@ const Metodic = () => {
                         не имеющую аналогов на территории СНГ
                     </p>
                 </div>
-                <div class="parent">
-                    <div class="div1">
-                        <div class="flex__childs-items">
+                <div className="parent">
+                    <div className="div1">
+                        <div className="flex__childs-items">
                             <img
                                 width="74px"
                                 height="75px"
@@ -55,8 +55,8 @@ const Metodic = () => {
                             </p>
                         </div>
                     </div>
-                    <div class="div2">
-                        <div class="flex__childs-items">
+                    <div className="div2">
+                        <div className="flex__childs-items">
                             <img
                                 width="74px"
                                 height="75px"
@@ -73,8 +73,8 @@ const Metodic = () => {
                             </p>
                         </div>
                     </div>
-                    {/* <div class="div3">
-            <div class="flex__childs-items">
+                    {/* <div className="div3">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -89,8 +89,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div4">
-            <div class="flex__childs-items">
+          <div className="div4">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -105,8 +105,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div5">
-            <div class="flex__childs-items">
+          <div className="div5">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -121,8 +121,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div6">
-            <div class="flex__childs-items">
+          <div className="div6">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -137,8 +137,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div7">
-            <div class="flex__childs-items">
+          <div className="div7">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -153,8 +153,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div8">
-            <div class="flex__childs-items">
+          <div className="div8">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -169,8 +169,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div9">
-            <div class="flex__childs-items">
+          <div className="div9">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
