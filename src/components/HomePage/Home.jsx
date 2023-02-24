@@ -43,28 +43,28 @@ const Home = () => {
       {/* // header end */}
 
       {/* <!-- servisces block start --> */}
-      <div class="services">
-        <h2 class="services__title_main">The Service We Provide For You</h2>
-        <ul class="services__list">
-          <li class="services__item">
-            <img class="services__icon" src={iconPng1} alt="error" />
-            <h4 class="services__title">Development</h4>
-            <p class="services__desc">
+      <div className="services">
+        <h2 className="services__title_main">The Service We Provide For You</h2>
+        <ul className="services__list">
+          <li className="services__item">
+            <img className="services__icon" src={iconPng1} alt="error" />
+            <h4 className="services__title">Development</h4>
+            <p className="services__desc">
               Create a platform with the best and coolest quality from us.
             </p>
           </li>
-          <li class="services__item">
-            <img class="services__icon" src={iconPng2} alt="error" />
-            <h4 class="services__title">UI/UX Designer</h4>
-            <p class="services__desc">
+          <li className="services__item">
+            <img className="services__icon" src={iconPng2} alt="error" />
+            <h4 className="services__title">UI/UX Designer</h4>
+            <p className="services__desc">
               We provide UI/UX Design services, and of course with the best
               quality.
             </p>
           </li>
-          <li class="services__item">
-            <img class="services__icon" src={iconPng3} alt="error" />
-            <h4 class="services__title">Graphic Designer</h4>
-            <p class="services__desc">
+          <li className="services__item">
+            <img className="services__icon" src={iconPng3} alt="error" />
+            <h4 className="services__title">Graphic Designer</h4>
+            <p className="services__desc">
               We provide Graphic Design services, with the best designers.
             </p>
           </li>
@@ -73,31 +73,31 @@ const Home = () => {
       {/* <!-- servisces block end --> */}
       {/* <!-- portfolio block start --> */}
 
-      <div class="portfolio">
-        <h4 class="portfolio__title">Our Awesome Portfolio</h4>
-        <ul class="portfolio__list">
-          <li class="portfolio__item">
+      <div className="portfolio">
+        <h4 className="portfolio__title">Our Awesome Portfolio</h4>
+        <ul className="portfolio__list">
+          <li className="portfolio__item">
             <img src={portfolio1} alt="error" />
           </li>
-          <li class="portfolio__item">
+          <li className="portfolio__item">
             <img src={portfolio2} alt="error" />
           </li>
-          <li class="portfolio__item">
+          <li className="portfolio__item">
             <img src={portfolio3} alt="error" />
           </li>
         </ul>
-        <img src={portfolio4} alt="error" class="portfolio__icon" />
+        <img src={portfolio4} alt="error" className="portfolio__icon" />
       </div>
 
-      <img src={logofooter} alt="" class="portfolio__icon_second" />
+      <img src={logofooter} alt="" className="portfolio__icon_second" />
       {/* <!-- portfolio block end --> */}
 
       {/* <!-- info block start --> */}
-      <div class="info-block">
-        <h4 class="info-block__title">
+      <div className="info-block">
+        <h4 className="info-block__title">
           Contact us for the service you want to use
         </h4>
-        <button class="info-block__btn">Contact us</button>
+        <button className="info-block__btn">Contact us</button>
       </div>
       {/* <!-- info block end --> */}
     </div>

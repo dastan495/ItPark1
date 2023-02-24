@@ -1,12 +1,12 @@
 import React from "react";
-import Price from "../components/price/Price";
+import Event from "../components/Event/Event";
 
 const PricePage = () => {
-  return (
-    <div>
-      <Price />
-    </div>
-  );
+    return (
+        <div>
+            <Event />
+        </div>
+    );
 };
 
 export default PricePage;
