@@ -301,7 +301,7 @@
 .flex__childs-items {
   border: none;
   height: 10px;
-  /* width: 100%; */
+  width: 100%;
 }
 .flex__childs-items h3 {
   color: orange;

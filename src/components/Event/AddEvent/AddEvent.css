@@ -1,0 +1,10 @@
+.form_block {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+input {
+    margin-bottom: 10px;
+    height: 30px;
+}

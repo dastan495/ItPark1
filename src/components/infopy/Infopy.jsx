@@ -3,14 +3,14 @@ import React from "react";
 import "./infopy.css";
 const infopy = () => {
   return (
-    <div className="main">
-      <div className="cover">
-        <div className="cover_t">
-          <div className="t-container">
-            <div className="t-col">
-              <div className="t_cover_wrapper">
-                <div className="t154">
-                  <div className="title">
+    <div className="main1">
+      <div className="cover1">
+        <div className="cover_t1">
+          <div className="t-container1">
+            <div className="t-col1">
+              <div className="t_cover_wrapper1">
+                <div className="t1541">
+                  <div className="title1">
                     <div style={{ fontSize: "72px", textAlign: "left" }}>
                       получи профессию
                       <br />
@@ -18,7 +18,7 @@ const infopy = () => {
                         Frontend-разработчика
                       </span>
                       <br />
-                      за 9 месяцев
+                      за 6 месяцев
                       <br />С нуля.
                     </div>
                   </div>
@@ -28,10 +28,10 @@ const infopy = () => {
           </div>
         </div>
       </div>
-      <div className="section">
-        <div className="section_title">
-          <div className="section_four">
-            <div className="abult">
+      <div className="section1">
+        <div className="section_title1">
+          <div className="section_four1">
+            <div className="abult1">
               <div
                 style={{
                   fontSize: "42px",
@@ -66,19 +66,19 @@ const infopy = () => {
                 Пройти тест, чтобы узнать подходит ли тебе Frontend
               </div>
             </div>
-            <div className="abult">
-              <div className="image_right">
-                <div className="logoPy"></div>
-                <div className="image"></div>
+            <div className="abult1">
+              <div className="image_right1">
+                <div className="logoPy1"></div>
+                <div className="image1"></div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="section_question">
-        <div className="section_box">
-          <div className="section_center">
+      <div className="section_question1">
+        <div className="section_box1">
+          <div className="section_center1">
             <h1
               style={{
                 color: "orange",
@@ -89,7 +89,7 @@ const infopy = () => {
                 lineHeight: "1.23",
               }}
             >
-              Подойдет ли тебе Python
+              Подойдет ли тебе Frontend
             </h1>
             <p>
               Пройти наш профориентационный тест и узнай какое направление
@@ -99,178 +99,212 @@ const infopy = () => {
           </div>
         </div>
       </div>
-      <div className="section_about_teacher">
-        <div className="info_block_1">
-          <div className="info_block_son">
+      <div className="section_about_teacher1">
+        <div className="info_block_11">
+          <div className="info_block_son1">
             {/* 1 */}
-            <div className="info_block_left">
-              <div className="info_block_left-1">
-                <div className="info_block_left-2">
-                  <div className="info_title_block_name">
-                    <div>Eкатерина Смоляева</div>
+            <div className="info_block_left1">
+              <div className="info_block_left-11">
+                <div className="info_block_left-21">
+                  <div className="info_title_block_name1">
+                    <div>Канатбек уулу Дастан</div>
                   </div>
-                  <div className="info_title_block-3">
+                  <div className="info_title_block-31">
                     Автор курса и глава направления
                   </div>
-                  <div className="info_title_block-4"></div>
-                  <div className="info_title_block-5">
-                    Екатерина Смоляева Автор курса и глава направления Уже 6 лет
-                    в программировании. Начинала как учитель информатики, а
-                    сейчас владеет собственным обучающим центром. Один из самых
-                    сильных специалистов в вопросах методологии обучения.
+                  <div className="info_title_block-41"></div>
+                  <div className="info_title_block-51">
+                    Канатбек уулу Дастан ваш ментор и глава направления Уже 3
+                    года в программировании. Начинала как финансист информатики,
+                    а сейчас перешел в It направление. Один из хороших сильных
+                    специалистов в вопросах методологии обучения.
                     <br />
                     <br />
-                    Именно Екатерина привнесла в нашу систему
-                    стартап-направления и фокус на фриланс. Она простроила
-                    систему работы в своем департаменте, при которой студенты
-                    максимально фокусируются на практику и выработку
-                    soft-skills. Именно эти два блока помогают выпускникам
-                    успешнее проходить этап трудоустройства. Свою работу как
-                    главы направления, Екатерина начала в январе 2021.
+                    Именно Дастан привнесла в нашу систему стартап-направления и
+                    фокус на фриланс. Он простроил систему работы в своем
+                    департаменте, при которой студенты максимально фокусируются
+                    на практику и выработку soft-skills. Именно эти два блока
+                    помогают выпускникам успешнее проходить этап
+                    трудоустройства. Свою работу как главы направления, Дастан
+                    начала в январе 2021.
                   </div>
                 </div>
               </div>
             </div>
             {/* 1 */}
-            <div className="info_photo">
-              <div className="photes"></div>
+            <div className="info_photo1">
+              <div className="photes1"></div>
             </div>
           </div>
         </div>
       </div>
 
       {/* start info etap */}
-      <div className="info_etap">
-        <div className="info_box_etap">
-          <div className="info_title">
-            <div className="info_title_box">
-              <div className="info_title_box-1">
-                <div className="info_title_h1">
+      <div className="info_etap1">
+        <div className="info_box_etap1">
+          <div className="info_title1">
+            <div className="info_title_box1">
+              <div className="info_title_box-11">
+                <div className="info_title_h11">
                   <div style={{ textAlign: "center", marginBottom: "25px" }}>
                     Программа обучения
                   </div>
-                  <div className="info_title_p">краткое содержание курса</div>
+                  <div className="info_title_p1">краткое содержание курса</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <ul className="ul_course">
-          <li className="li_course">
+        <ul className="ul_course1">
+          <li className="li_course1">
             <div>
-              <div className="li_block">
-                <div className="li_block_h2">Основы программирования</div>
-                <div className="li_block_p">
+              <div className="li_block1">
+                <div className="li_block_h21">Основы программирования</div>
+                <div className="li_block_p1">
                   Программисты не только работают по-другому, они иначе думают.
                   В этом блоке мы расскажем тебе как быть программистом до мозга
                   костей. Пройдем основные понятия, разберемся в технологиях и
                   установим все необходимые программы.
                 </div>
-                <div className="number">1</div>
+                <div className="number1">1</div>
               </div>
             </div>
           </li>
-          <li className="li_course">
+          <li className="li_course1">
             <div>
-              <div className="li_block">
-                <div className="li_block_h2">Основы программирования</div>
-                <div className="li_block_p">
-                  Программисты не только работают по-другому, они иначе думают.
-                  В этом блоке мы расскажем тебе как быть программистом до мозга
-                  костей. Пройдем основные понятия, разберемся в технологиях и
-                  установим все необходимые программы.
+              <div className="li_block1">
+                <div className="li_block_h21">HTML</div>
+                <div className="li_block_p1">
+                  Язык, который отвечает за содержимое сайта - тексты, картинки,
+                  ссылки и тд. Ты научишься правильно писать семантику страницы
+                  и отработаешь весь функционал на практике.
                 </div>
-                <div className="number">2</div>
+                <div className="number1">2</div>
               </div>
             </div>
           </li>
-          <li className="li_course">
+          <li className="li_course1">
             <div>
-              <div className="li_block">
-                <div className="li_block_h2">Основы программирования</div>
-                <div className="li_block_p">
-                  Программисты не только работают по-другому, они иначе думают.
-                  В этом блоке мы расскажем тебе как быть программистом до мозга
-                  костей. Пройдем основные понятия, разберемся в технологиях и
-                  установим все необходимые программы.
+              <div className="li_block1">
+                <div className="li_block_h21">CSS</div>
+                <div className="li_block_p1">
+                  CSS позволит тебе создавать красоту. Цвета, переходы, анимации
+                  - заслуга этого блока. Здесь твой внутренний дизайнер
+                  соединится с программистом для создания прекрасного.
                 </div>
-                <div className="number">3</div>
+                <div className="number1">3</div>
               </div>
             </div>
           </li>
-          <li className="li_course">
+          <li className="li_course1">
             <div>
-              <div className="li_block">
-                <div className="li_block_h2">Основы программирования</div>
-                <div className="li_block_p">
-                  Программисты не только работают по-другому, они иначе думают.
-                  В этом блоке мы расскажем тебе как быть программистом до мозга
-                  костей. Пройдем основные понятия, разберемся в технологиях и
-                  установим все необходимые программы.
+              <div className="li_block1">
+                <div className="li_block_h21">JavaScript</div>
+                <div className="li_block_p1">
+                  Вот тут начинается настоящее программирование. Ты изучишь
+                  алгоритмы, ООП, работу с API, синхронный и асинхронный код. И
+                  подробно разберешь синтаксис самого JS
                 </div>
-                <div className="number">4</div>
+                <div className="number1">4</div>
               </div>
             </div>
           </li>
-          <li className="li_course">
+          <li className="li_course1">
             <div>
-              <div className="li_block">
-                <div className="li_block_h2">Основы программирования</div>
-                <div className="li_block_p">
-                  Программисты не только работают по-другому, они иначе думают.
-                  В этом блоке мы расскажем тебе как быть программистом до мозга
-                  костей. Пройдем основные понятия, разберемся в технологиях и
-                  установим все необходимые программы.
+              <div className="li_block1">
+                <div className="li_block_h21">React</div>
+                <div className="li_block_p1">
+                  Это фреймворк, которым владеет каждый хороший frontend
+                  разработчик. Он помогает создавать пользовательские интерфейс,
+                  удобно связывая JS и HTML
                 </div>
-                <div className="number">5</div>
+                <div className="number1">5</div>
               </div>
             </div>
           </li>
         </ul>
       </div>
       {/* start info etap */}
-      <div className="price_block">
-        <div className="price_block_mini">
-          <div className="price_block_mini-1">
-            <div className="price_block_mini-2">
-              <div className="prive_block_mini-h1">
-                <div className="price_block_mini_h1">Стомость обучении</div>
+      <div className="price_block1">
+        <div className="price_block_mini1">
+          <div className="price_block_mini-11">
+            <div className="price_block_mini-21">
+              <div className="prive_block_mini-h11">
+                <div className="price_block_mini_h11">Стомость обучении</div>
               </div>
-              <div className="info_price">
-                <div className="info_price-1">
-                  <div className="info_price-2">
-                    <div className="info_price-3">
-                      Основы программирования 2.0
+              <div className="info_price1">
+                <h2 style={{ color: "black" }}>оффлайн обучение:</h2>
+                <div className="info_price-11">
+                  <div className="info_price_center1">
+                    <div className="info_price_center-11">
+                      <div className="info_price_center-into1">
+                        — Обучение по видео-записям, с оффлайн консультациями
+                        <br />
+                        — Чат с менторами и команде
+                        <br />
+                        — Персональный отзыв на каждое задание
+                        <br />
+                        — Все языки программирования
+                        <br />
+                        — Круглосуточный коворкинг
+                        <br />— 6 месяцев оффлайн обучения
+                      </div>
+                      <div className="info_price_center-box1"></div>
+                      <div className="number_price1">
+                        <div className="number_p1">10.000</div>
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            lineHeight: "1.55",
+                            fontFamily: "Montserrat,Arial,sans-serif",
+                            fontWeight: "400",
+                            color: "#000",
+                          }}
+                        >
+                          за курс
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div className="info_price_center">
-                    <div className="info_price_center-1">
-                      <div className="info_price_center-box">
-                        <div className="info_price_center-into">
-                          — Обучение по видео-записям, с оффлайн консультациями
-                          <br />
-                          — Чат с менторами и команде
-                          <br />
-                          — Персональный отзыв на каждое задание
-                          <br />
-                          — Все языки программирования
-                          <br />
-                          — Круглосуточный коворкинг
-                          <br />— 2 недели обучения
-                        </div>
-                        <div className="number_price">
-                          <div className="number_p">7000</div>
-                          <div
-                            style={{
-                              fontSize: "14px",
-                              lineHeight: "1.55",
-                              fontFamily: "Montserrat,Arial,sans-serif",
-                              fontWeight: "400",
-                              color: "#000",
-                            }}
-                          >
-                            за курс
-                          </div>
+                  <div
+                    style={{
+                      height: "1px",
+                      backgroundColor: "black",
+                      marginTop: "5%",
+                      marginBottom: "5%",
+                    }}
+                  ></div>
+                </div>
+                {/*  */}
+                <h2 style={{ color: "black" }}>индивидуальное обучение:</h2>
+                <div className="info_price-11">
+                  <div className="info_price_center1">
+                    <div className="info_price_center-11">
+                      <div className="info_price_center-into1">
+                        — предоставление личного ментора
+                        <br />
+                        — полноценный разбор всех тасков
+                        <br />
+                        — Персональный отзыв на каждое задание
+                        <br />
+                        — освоение проффесии за короткий срок
+                        <br />
+                        — Круглосуточный коворкинг
+                        <br />— 4 месяцев оффлайн обучения
+                      </div>
+                      <div className="info_price_center-box1"></div>
+                      <div className="number_price1">
+                        <div className="number_p1">12.000</div>
+                        <div
+                          style={{
+                            fontSize: "14px",
+                            lineHeight: "1.55",
+                            fontFamily: "Montserrat,Arial,sans-serif",
+                            fontWeight: "400",
+                            color: "#000",
+                          }}
+                        >
+                          за курс
                         </div>
                       </div>
                       <div></div>

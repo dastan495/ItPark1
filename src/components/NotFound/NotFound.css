@@ -1,0 +1,37 @@
+.notFound {
+  -webkit-text-size-adjust: 100%;
+}
+.notFound_box {
+  height: 738px;
+  background-color: #171717;
+}
+.notFound_box1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+.notFound_396 {
+  height: 738px;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.notFound_397 {
+  height: 738px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  transform: translateZ(0);
+}
+.found_404 {
+  top: 120px;
+  left: 74.5;
+  width: 660px;
+}
+.tn {
+  color: white;
+  z-index: 10;
+}

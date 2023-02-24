@@ -6,12 +6,12 @@ import LanguageIcon from "@mui/icons-material/Language";
 const Metodic = () => {
   return (
     <>
-      <div class="container__attachment">
-        <div class="attachment__body">
-          <div class="attachment__body-text">
+      <div className="container__attachment">
+        <div className="attachment__body">
+          <div className="attachment__body-text">
             <h1>Присоединяйся на любом этапе</h1>
-            <div class="border__line"></div>
-            <div class="attachment__body-text_p p-text">
+            <div className="border__line"></div>
+            <div className="attachment__body-text_p p-text">
               <p>
                 Если ты уже знаешь основы какого-то языка программирования —
                 можно пропустить первые месяцы обучения. Для этого мы
@@ -19,15 +19,15 @@ const Metodic = () => {
                 какому этапу тебя стоит подключить
               </p>
             </div>
-            <div class="attachment__body-btn">
+            <div className="attachment__body-btn">
               <a href="#">Запросить тест</a>
             </div>
           </div>
         </div>
-        <div class="attachment__footer"></div>
+        <div className="attachment__footer"></div>
       </div>
-      <div class="flex__container">
-        <div class="flex__container-text">
+      <div className="flex__container">
+        <div className="flex__container-text">
           <h1>
             Методика <span>обучения</span>
           </h1>
@@ -36,14 +36,10 @@ const Metodic = () => {
             аналогов на территории СНГ
           </p>
         </div>
-        <div class="parent">
-          <div class="div1">
-            <div class="flex__childs-items">
-              <img
-                style={{ width: "74px", height: "75px" }}
-                src={<LanguageIcon />}
-                alt=""
-              />
+        <div className="parent">
+          <div className="div1">
+            <div className="flex__childs-items">
+              <img width="74px" height="75px" src={<logoasd />} alt="" />
               <h3>Старт с самого нуля</h3>
               <p>
                 Если ты до этого никогда не изучал программирование — тебе не
@@ -52,8 +48,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div2">
-            <div class="flex__childs-items">
+          <div className="div2">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -68,8 +64,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div3">
-            <div class="flex__childs-items">
+          <div className="div3">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -84,8 +80,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div4">
-            <div class="flex__childs-items">
+          <div className="div4">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -102,8 +98,8 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div5">
-            <div class="flex__childs-items">
+          <div className="div5">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -117,19 +113,19 @@ const Metodic = () => {
               </p>
             </div>
           </div>
-          <div class="div6">
-            <div class="flex__childs-items">
+          <div className="div6">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
                 src="./icons8-globe-100.png"
                 alt=""
               />
-              <h3>Все профессиональные курсы по цене одного</h3>
+              <h3> профессиональные курсы </h3>
               <p>
                 Если у тебя достаточно времени и сил, чтобы освоить сразу
                 несколько направлений - мы не против! Поступая в Академию на
-                9-месячный курс по IT профессии, ты получаешь доступ ко всем
+                6-месячный курс по IT профессии, ты получаешь доступ ко всем
                 курсам своего потока. Опережаешь программу по Java - изучи
                 Frontend!
               </p>
@@ -137,6 +133,8 @@ const Metodic = () => {
           </div>
           {/* <div class="div7">
             <div class="flex__childs-items">
+          <div className="div7">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -153,6 +151,9 @@ const Metodic = () => {
           </div> */}
           {/* <div class="div8">
             <div class="flex__childs-items">
+          </div>
+          <div className="div8">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"
@@ -171,6 +172,9 @@ const Metodic = () => {
           </div> */}
           {/* <div class="div9">
             <div class="flex__childs-items">
+          </div>
+          <div className="div9">
+            <div className="flex__childs-items">
               <img
                 width="74px"
                 height="75px"

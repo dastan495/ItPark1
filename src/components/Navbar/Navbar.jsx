@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../../style.css";
 import "../../adaptive_style.css";
-import logo from "../../images/logo.png";
+import logo from "../../images/it park.png";
 import { useNavigate } from "react-router-dom";
 import Auth from "../Auth/Auth";
 import { useAuth } from "../../contexts/AuthContext";
@@ -68,7 +68,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="list__item">
-            <a onClick={() => navigate("/")} href="#">
+            <a onClick={() => navigate("/event")} href="#">
               вебинары
             </a>
           </li>

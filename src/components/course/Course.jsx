@@ -58,7 +58,7 @@ const Course = () => {
           </div>
           <div className="info_button ">
             <button>Записаться на курс</button>
-            <button onClick={() => navigate("/infojs")}>Узнать больше</button>
+            <button onClick={() => navigate("/infopy")}>Узнать больше</button>
           </div>
         </div>
         <div className="block_course">
@@ -73,7 +73,7 @@ const Course = () => {
           </div>
           <div className="info_button ">
             <button>Записаться на курс</button>
-            <button onClick={() => navigate("/infojs")}>Узнать больше</button>
+            <button>Узнать больше</button>
           </div>
         </div>
       </div>
