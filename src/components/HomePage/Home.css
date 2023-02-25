@@ -61,6 +61,7 @@ header {
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: -1;
 }
 .header__block_right img {
     width: 120%;
