@@ -1,8 +1,9 @@
 import React from "react";
 import "./Metodic.css";
 // import "../../style.css";
-import logoasd from "./metodicimage/first.svg";
-import LanguageIcon from "@mui/icons-material/Language";
+// import logoasd from "./metodicimage/first.svg";
+// import LanguageIcon from "@mui/icons-material/Language";
+// import world from "../../image/world.svg";
 const Metodic = () => {
   return (
     <>
@@ -39,7 +40,7 @@ const Metodic = () => {
         <div className="parent">
           <div className="div1">
             <div className="flex__childs-items">
-              <img width="74px" height="75px" src={<logoasd />} alt="" />
+              <img width="74px" height="75px" src={<world />} alt="" />
               <h3>Старт с самого нуля</h3>
               <p>
                 Если ты до этого никогда не изучал программирование — тебе не
