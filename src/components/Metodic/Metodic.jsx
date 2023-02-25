@@ -1,8 +1,9 @@
 import React from "react";
 import "./Metodic.css";
 // import "../../style.css";
-import logoasd from "./metodicimage/first.svg";
-import LanguageIcon from "@mui/icons-material/Language";
+// import logoasd from "./metodicimage/first.svg";
+// import LanguageIcon from "@mui/icons-material/Language";
+// import world from "../../image/world.svg";
 const Metodic = () => {
     return (
         <>
@@ -43,7 +44,7 @@ const Metodic = () => {
                             <img
                                 width="74px"
                                 height="75px"
-                                src={<logoasd />}
+                                src={<world />}
                                 alt=""
                             />
                             <h3>Старт с самого нуля</h3>
@@ -78,7 +79,7 @@ const Metodic = () => {
                             <img
                                 width="74px"
                                 height="75px"
-                                src="https://devkg.com/js/img/logo.458f2cd.svg"
+                                src="./icons8-globe-100.png"
                                 alt=""
                             />
                             <h3>Упор на практику</h3>
@@ -145,7 +146,6 @@ const Metodic = () => {
                             </p>
                         </div>
                     </div>
-
                     {/* <div class="div7">
             <div class="flex__childs-items">
           <div className="div7">

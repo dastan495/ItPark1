@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { ADMIN } from "../../consts";
 import { useAuth } from "../../contexts/AuthContext";
 import { eventContext } from "../../contexts/EventContext";
+import "./eventList.css";
 
 const EventList = ({ item }) => {
     const navigate = useNavigate();
