@@ -1,3 +1,4 @@
+import { Button } from "@mui/material";
 import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import { eventContext } from "../../../contexts/EventContext";
@@ -9,7 +10,7 @@ const EventDetails = () => {
         getOneEvent(id);
     }, []);
     return (
-        <div className="container">
+        <div className="event-cont">
             <div
                 style={{
                     width: "100%",
