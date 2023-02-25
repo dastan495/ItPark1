@@ -1,0 +1,19 @@
+.event_card h2 {
+  font-size: 32px;
+  margin-bottom: 1px;
+  margin-top: 3px;
+  padding: 5px 10px;
+}
+.event_card p {
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-top: 1px;
+  padding: 5px 10px;
+}
+.event_card button {
+  font-size: 15px;
+  margin-bottom: 3px;
+  margin-top: 1px;
+  padding: 5px 25px;
+  border-radius: 15px;
+}

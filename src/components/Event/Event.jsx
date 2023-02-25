@@ -14,7 +14,7 @@ const Event = () => {
   return (
     <div className="container">
       <div className="event_title_block">
-        <h1>Мероприятия и вебинары</h1>
+        <h1 style={{ color: "orange" }}>Мероприятия и вебинары</h1>
       </div>
       <Button onClick={() => navigate("/addEvent")}>new event</Button>
       <div className="event_list">

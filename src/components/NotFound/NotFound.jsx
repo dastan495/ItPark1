@@ -1,13 +1,19 @@
 import React from "react";
+import "./NotFound.css";
 
 const NotFound = () => {
   return (
-    <div className="notFound">
-      <div className="notFound_box notFound_box1">
-        <div className="notFound_396"></div>
-        <div className="notFound_397"></div>
-        <div className="found_404 tn">
-          <div className="box_404">404</div>
+    <div className="container">
+      <div className="notFoundBox">
+        <div>
+          <h1>404</h1>
+        </div>
+        <div style={{ fontSize: "30px" }}>
+          Тут идут <br />
+          <span style={{ color: "orange" }}>ремонтныее роботы</span>
+          <br />
+          пиши нам в соц сетях{" "}
+          <span style={{ color: "orange" }}>ItPark.osh</span>
         </div>
       </div>
     </div>
