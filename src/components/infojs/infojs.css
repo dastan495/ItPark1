@@ -2,7 +2,7 @@ p {
   font-family: "Montserrat", Arial, sans-serif;
 }
 .cover {
-  /* background-image: url(https://static.tildacdn.com/lib/unsplash/0d065ea7-7846-4bb9-e7b9-28242c46d56d/photo.jpg); */
+  background-image: url(https://static.tildacdn.com/lib/unsplash/0d065ea7-7846-4bb9-e7b9-28242c46d56d/photo.jpg);
   height: 600px;
   background-color: #000;
   overflow: hidden;
