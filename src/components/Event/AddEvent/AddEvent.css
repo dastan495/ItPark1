@@ -1,10 +1,32 @@
-.form_block {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    margin: auto;
+.asd {
+  background-image: url(https://s1.auto.drom.ru/photo/TOrutsjoOaqtXYW9IaSWbeLDUlXECJErEwtzEglBuzUTbDKp3eakfWy4Zdcvcl2pgCuQkfAV6m5Yf17VN2qHcHFTuE0Z.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-input {
-    margin-bottom: 10px;
-    height: 30px;
+.form_block {
+  margin-top: -1%;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  /* width: 300px; */
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+.inp {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  height: 45px;
+  width: 500px;
+  border: none;
+  border-radius: 15px;
+}
+
+.asdf {
+  height: 40px;
+  width: 520px;
+  border: none;
+  border-radius: 15px;
 }

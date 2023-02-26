@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../style.css";
 import person1 from "../../images/person1.png";
 import person2 from "../../images/person2.png";
 import person3 from "../../images/person3.png";
 import { useNavigate } from "react-router-dom";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Course = () => {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   const navigate = useNavigate();
   return (
     <div className="container">
@@ -19,7 +24,7 @@ const Course = () => {
         here
       </p>
       <div className="main_course_block">
-        <div className="block_course">
+        <div className="block_course" data-aos="flip-right">
           <img src={person1} alt="" />
           <div className="info_about_course python">
             <h4>Python-разработчик</h4>
@@ -43,7 +48,7 @@ const Course = () => {
             <button onClick={() => navigate("/infojs")}>Узнать больше</button>
           </div>
         </div>
-        <div className="block_course">
+        <div className="block_course" data-aos="flip-right">
           <img src={person2} alt="" />
           <div className="info_about_course">
             <h4>FrontEnd-Разработчик</h4>
@@ -64,7 +69,7 @@ const Course = () => {
             <button onClick={() => navigate("/infopy")}>Узнать больше</button>
           </div>
         </div>
-        <div className="block_course">
+        <div className="block_course" data-aos="flip-right">
           <img src={person3} alt="" />
           <div className="info_about_course">
             <h4>UI/UX дизайнер</h4>
