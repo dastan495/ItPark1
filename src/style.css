@@ -20,6 +20,8 @@ body {
   display: none;
 }
 .navbar {
+  /* position: fixed; */
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,6 +29,7 @@ body {
 }
 .navbar__logo {
   width: 6%;
+  cursor: pointer;
 }
 .navbar__list {
   display: flex;
