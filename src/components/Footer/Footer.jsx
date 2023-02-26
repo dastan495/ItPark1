@@ -11,31 +11,7 @@ const Footer = () => {
         <div className="about_title">
           <h3>соцсети</h3>
           <div className="logo_footer">
-            <a href="">
-              {" "}
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/3955/3955024.png"
-                alt="l"
-              />
-            </a>
-            <a href="">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/134/134937.png"
-                alt="l"
-              />
-            </a>
-            <a href="">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/145/145802.png"
-                alt="l"
-              />
-            </a>
-            <a href="">
-              <img
-                src="https://cdn-icons-png.flaticon.com/128/270/270021.png"
-                alt="l"
-              />
-            </a>
+            <img src={logo} alt="l" />
           </div>
         </div>
         <div className="about_title">
